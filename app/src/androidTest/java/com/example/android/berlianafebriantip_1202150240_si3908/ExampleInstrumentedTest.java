@@ -1,4 +1,4 @@
-package com.example.android.studycase;
+package com.example.android.berlianafebriantip_1202150240_si3908;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.android.studycase", appContext.getPackageName());
+        assertEquals("com.example.android.berlianafebriantip_1202150240_si3908", appContext.getPackageName());
     }
 }

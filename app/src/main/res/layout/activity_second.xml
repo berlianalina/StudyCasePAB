@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.studycase.SecondActivity">
+    tools:context="com.example.android.berlianafebriantip_1202150240_si3908.SecondActivity">
 
     <TextView
         android:id="@+id/textView"

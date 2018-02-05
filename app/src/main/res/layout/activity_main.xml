@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context="com.example.android.studycase.MainActivity">
+    tools:context="com.example.android.berlianafebriantip_1202150240_si3908.MainActivity">
 
 
     <TextView

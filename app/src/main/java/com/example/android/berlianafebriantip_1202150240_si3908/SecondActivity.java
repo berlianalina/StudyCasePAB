@@ -1,4 +1,4 @@
-package com.example.android.studycase;
+package com.example.android.berlianafebriantip_1202150240_si3908;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
-
     public TextView Restoran;
     public TextView NamaMenu;
     public TextView PorsiMenu;
@@ -32,7 +31,8 @@ public class SecondActivity extends AppCompatActivity {
         int porsi = Integer.parseInt(ExtraNamaPorsi);
         if("Eatbus".equals(ExtraNamaRestoran)){harga=30000*porsi;}
         else if("Abnormal".equals(ExtraNamaRestoran)){harga=50000*porsi;}
-        if(harga>uang){Toast.makeText(this, "Jangan makan disini, kamu gakuat soalnya uang kamu gacukup",Toast.LENGTH_SHORT).show();}
+        if(harga>uang){
+            Toast.makeText(this, "Jangan makan disini, kamu gakuat soalnya uang kamu gacukup",Toast.LENGTH_SHORT).show();}
         else{Toast.makeText(this, "Makan disini kamu kuat, soalnya uang kamu cukup",Toast.LENGTH_SHORT).show();}
 
         Restoran.setText(ExtraNamaRestoran);

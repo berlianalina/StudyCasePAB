@@ -1,4 +1,4 @@
-package com.example.android.studycase;
+package com.example.android.berlianafebriantip_1202150240_si3908;
 
 import org.junit.Test;
 
